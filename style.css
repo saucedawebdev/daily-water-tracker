@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #ccc;
+}
+
+.hero {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.hero button:active {
+    background-color: #333;
+    color: #fff;
+}
+
+.hero button:focus {
+    outline: none;
+}
+
+.hero button:active {
+    transform: scale(0.98);
+}
+
+.hero button:focus {
+    outline: none;
+}
+
+#about {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#tracker {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+#tracker h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#glasses-drank {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#add-glass {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+#subtract-glass {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#reset-glasses {
+    background-color: #333;
+    color: #fff;
+    border: none;  
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#keep-hydrating {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+

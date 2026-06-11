@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <meta name="wiewport" content="width-device-width, initial-scale-1.0">
+        <title>Daily Water Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Daily Water Tracker</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tracker">Tracker</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <section class="hero" id="hero">
+            <h2>Welcome to the Daily Water Tracker</h2>
+            <p>Track your daily water intake and stay hydrated.</p>
+        </section>
+        <section id="about">
+            <h2>About the Daily Water Tracker</h2>
+            <p>The Daily Water Tracker is a simple tool to help you track your daily water intake. It's a great way to stay hydrated and improve your health.</p>
+        </section>
+        <section id="tracker">
+            <h2>Track your daily water intake</h2>
+            <p id="glasses-drank"> Glasses Drank Today: 0</p>
+            <button id="add-glass">+1 Glass</button>
+            <button id="subtract-glass">-1 Glass</button>
+            <button id="reset-glasses">Reset</button>
+            <p id="keep-hydrating"></p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </form>
+            <button type="submit">Submit</button>
+        </section>
+        <footer>
+            <p>&copy; 2026 Daily Water Tracker. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
